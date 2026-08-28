@@ -35,7 +35,7 @@ Experience
       <div class="experience-info">
           <strong>University of Michigan</strong><br>
           <em>2025.08 - 2026.12</em><br>
-          M.Eng. in Electrical and Computer Engineering; research advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a>
+          M.Eng. in Electrical and Computer Engineering & Research Assistant in the HDR Lab advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a>
       </div>
   </div>
 
@@ -53,7 +53,7 @@ Experience
       <div class="experience-info">
           <strong>ShanghaiTech University</strong><br>
           <em>2021.09 - 2025.07</em><br>
-          B.Eng. in Computer Science, GPA: 3.69/4.0, Rank: 19/180; research advised by <em>Prof. Yang Wang</em> and <em>Prof. Xin Lou</em>
+          B.Eng. in Computer Science, GPA: 3.69/4.0, Rank: 19/180
       </div>
   </div>
 
