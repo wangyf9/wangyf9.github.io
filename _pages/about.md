@@ -80,11 +80,10 @@ Publications
           Yang Li,
           Xiaonan Huang
         </i><br>
-        We present AUTO-ROBOTIST, a self-evolving LLM agent that distills evaluated successful and failed morphology-search experience into an auditable skill library with ADD, DIAGNOSE, and MERGE operations, achieving a 1.47&times; average convergence speedup on seven 5&times;5 EvoGym tasks and outperforming GA on all seven 10&times;10 cross-scale transfer tasks.
+        We present AUTO-ROBOTIST, a self-evolving LLM agent that distills evaluated successful and failed morphology-search experience into an auditable skill library with ADD, DIAGNOSE, and MERGE operations.
         <br>
         <b><i style="color:#83a1c7;">EMNLP 2026 Main Conference &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>[arXiv]</em></a>
-        <a href="https://doi.org/10.48550/arXiv.2605.25832" target="_blank"><em>[DOI]</em></a>
       </div>
     </div>
   </div>
@@ -96,7 +95,7 @@ Publications
       <span class="pub-list-badge">EMNLP 2026</span>
       <span class="pub-list-title">When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</span><br>
       <span class="pub-list-authors"><strong>Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a><a href="https://doi.org/10.48550/arXiv.2605.25832" target="_blank">[DOI]</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a></span>
     </li>
   </ul>
 </div>
