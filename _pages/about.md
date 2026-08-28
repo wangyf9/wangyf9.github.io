@@ -127,19 +127,7 @@ Publications
 <script src="assets/js/show_publications.js"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
-Projects
---------
-- **GTRM: Gated Recursive Reasoning with Tiny Networks** — Extended the Tiny Recursion Model with context, attention, and recurrent gating, improving Sudoku reasoning accuracy by 5.6 percentage points.
-- **Distributionally Robust Neural Networks on Stable-Diffusion-Generated Data** — Evaluated eight training regimes under controlled, style-based distribution shifts.
-- **TEULM: Time-Efficient Ultrasound Localization Microscopy** — Developed a GPU-accelerated reconstruction pipeline using downsampling and 2D spatiotemporal RBF interpolation.
-
 Awards
 --------
 - *2024.12*, Merit Student (Top 15%), School of Information Science and Technology.
 - *2023.12*, Outstanding Student (Top 5%), School of Information Science and Technology.
-
-Skills
---------
-- **Languages:** Python, C/C++, MATLAB.
-- **Frameworks:** PyTorch.
-- **Tools:** Git, Blender, Unity, Linux.
