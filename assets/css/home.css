@@ -81,7 +81,7 @@
     .publication-card {
         display: flex;
         align-items: center;
-        padding: 3px;
+        padding: 12px;
         border: 1.5px solid #ddd;
         border-radius: 8px;
         background: #fff;

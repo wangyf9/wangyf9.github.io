@@ -19,7 +19,7 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026.05</em></span> 🎉🎉 Our work <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>When Search Becomes Memory</em></a> is available on arXiv.</li>
+    <li><span class="news-date"><em>2026.05</em></span> 🎉🎉 Our work <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</em></a> is available on arXiv.</li>
     <li><span class="news-date"><em>2025.08</em></span> 🎓🎓 I began my M.Eng. studies at the University of Michigan.</li>
     <li><span class="news-date"><em>2025.07</em></span> 🎓🎓 I received my B.Eng. degree from ShanghaiTech University.</li>
   </ul>
@@ -82,29 +82,6 @@ Experience
 
 </div>
 
-Education
---------------
-
-<div class="experience-container">
-  <div class="experience-card">
-      <img src="images/umich.png" alt="University of Michigan logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>University of Michigan</strong><br>
-          <em>2025.08 - Expected 2026.12</em><br>
-          M.Eng. in Electrical & Computer Engineering · GPA: 4.0/4.0
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/shanghaitech.png" alt="ShanghaiTech University logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>ShanghaiTech University</strong><br>
-          <em>2021.09 - 2025.07</em><br>
-          B.Eng. in Computer Science · GPA: 3.69/4.0 · Rank: 19/180
-      </div>
-  </div>
-</div>
-
 Publications
 --------------
 <button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
@@ -119,7 +96,7 @@ Publications
         <img src="images/autorobotist-pipeline.png" alt="Auto-Robotist pipeline overview" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
       </div>
       <div>
-        <strong>When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills</strong><br>
+        <strong>When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</strong><br>
         <i style="font-size: 13px;">
           <strong>Yunfei Wang*</strong>,
           Xiaohao Xu*&Dagger;,
@@ -140,7 +117,7 @@ Publications
   <ul class="full-publication-list">
     <li>
       <span class="pub-list-badge">EMNLP 2026</span>
-      <span class="pub-list-title">When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills</span><br>
+      <span class="pub-list-title">When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</span><br>
       <span class="pub-list-authors"><strong>Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang.</span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a><a href="https://doi.org/10.48550/arXiv.2605.25832" target="_blank">[DOI]</a></span>
     </li>
