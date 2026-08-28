@@ -1,5 +1,5 @@
 locale                   : "en-US"
-title                    : "Yunfei Wang"
+title                    : "Yunfei Wang 王芸飞"
 title_separator          : "-"
 name                     : "Yunfei Wang"
 description              : &description "Yunfei Wang — researcher in embodied AI, self-evolving agents, and robot learning."
@@ -9,9 +9,9 @@ repository               : "wangyf9/wangyf9.github.io"
 
 author:
   avatar           : "https://github.com/wangyf9.png"
-  name             : "Yunfei Wang"
-  pronouns         :
-  bio              : "M.Eng. student working on embodied AI and self-evolving agents."
+  name             : "Yunfei Wang 王芸飞"
+  pronouns         : "He/Him"
+  bio              : "Fly to the moon"
   location         : "Ann Arbor, MI"
   employer         : "University of Michigan"
   uri              :
