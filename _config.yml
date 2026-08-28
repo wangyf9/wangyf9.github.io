@@ -1,21 +1,21 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Yunfei Wang"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
-url                      : ""
+name                     : "Yunfei Wang"
+description              : &description "Yunfei Wang — researcher in embodied AI, self-evolving agents, and robot learning."
+url                      : "https://wangyf9.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "wangyf9/wangyf9.github.io"
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "https://github.com/wangyf9.png"
+  name             : "Yunfei Wang"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "M.Eng. student working on embodied AI and self-evolving agents."
+  location         : "Ann Arbor, MI"
+  employer         : "University of Michigan"
   uri              :
-  email            : "name@example.com"
+  email            : "wyunfei@umich.edu"
 
   arxiv            :
   googlescholar    :
@@ -28,7 +28,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "wangyf9"
   kaggle           :
   stackoverflow    :
 
@@ -92,9 +92,11 @@ facebook:
   publisher              :
 og_image                 :
 social:
-  type                   :
-  name                   :
-  links                  : []
+  type                   : "Person"
+  name                   : "Yunfei Wang"
+  links:
+    - "https://github.com/wangyf9"
+    - "https://arxiv.org/abs/2605.25832"
 
 analytics:
   provider               : false

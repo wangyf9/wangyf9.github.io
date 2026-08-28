@@ -1,321 +1,172 @@
-﻿---
+---
 permalink: /
 author_profile: true
 stylesheets:
   - /assets/css/home.css
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I work on AI, survive on instant noodles, and submit papers 3 minutes before deadlines.
+<section class="hero" aria-labelledby="hero-title">
+  <p class="eyebrow">Embodied AI · Robot Learning · Self-Evolving Agents</p>
+  <h1 id="hero-title">Turning experience into intelligence.</h1>
+  <p class="hero-copy">
+    I am a master's student in Electrical and Computer Engineering at the
+    <strong>University of Michigan</strong>. My research explores how AI agents can learn from
+    interaction, build reusable memory, and improve the design and control of physical systems.
+  </p>
+  <div class="hero-actions">
+    <a class="home-button home-button--primary" href="mailto:wyunfei@umich.edu">Get in touch</a>
+    <a class="home-button" href="https://arxiv.org/abs/2605.25832" target="_blank" rel="noopener">Read my paper ↗</a>
+    <a class="home-button" href="{{ '/files/Yunfei_Wang_Resume.pdf' | relative_url }}">Download CV</a>
+  </div>
+  <div class="interest-list" aria-label="Research interests">
+    <span>Embodied intelligence</span>
+    <span>Vision-language agents</span>
+    <span>Robot design</span>
+    <span>Experience-driven learning</span>
+  </div>
+</section>
 
-Feel free to reach out if you are interested in collaboration or potential opportunities.
+<h2 id="news" class="section-heading"><span>01</span> News</h2>
 
-News
----------------
 <div class="news-box">
   <ul class="news-list">
-
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
+    <li><time datetime="2026-05">May 2026</time><span>Our work <a href="https://arxiv.org/abs/2605.25832" target="_blank" rel="noopener"><em>When Search Becomes Memory</em></a> is available on arXiv.</span></li>
+    <li><time datetime="2025-08">Aug 2025</time><span>Started my M.Eng. in Electrical and Computer Engineering at the University of Michigan.</span></li>
+    <li><time datetime="2025-07">Jul 2025</time><span>Graduated from ShanghaiTech University with a B.Eng. in Computer Science.</span></li>
   </ul>
 </div>
 
-Experience
---------------
+<h2 id="research" class="section-heading"><span>02</span> Research</h2>
 
-<div class="experience-container">
-
-  <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
-          <em>2023.09 - Present</em><br>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
-      </div>
-  </div>
-</div>
-
-
-Publications
---------------
-<button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
-<button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
-
-(* equal contribution · &dagger; corresponding author · &Dagger; project leader)
-
-<div id="core-publications" class="publication-view" data-publication-view="core">
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
+<div class="timeline">
+  <article class="timeline-item">
+    <div class="timeline-mark">UM</div>
     <div>
-      <strong>SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </i><br> 
-      We present SleepFormer, the first framework capable of automatically generating convincing excuses for missed deadlines, skipped meetings, and unfinished experiments.
-      <br> 
-      <b><i style="color:#83a1c7;">ACL 3026 Oral &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <div class="item-meta">Jun 2026 — Present · University of Michigan</div>
+      <h3>TOOL-EVOLVE: Self-Evolving VLM Agent for Robotic Tool–Action Co-Design</h3>
+      <p>Developing an experience-driven VLM agent that jointly evolves tool geometry and action strategy, with a simulator-grounded reflector and cross-task memory for transferring reusable capabilities to unseen manipulation tasks.</p>
+      <p class="advisor">Advisor: Prof. Xiaonan Huang</p>
     </div>
-  </div> 
-</div>
+  </article>
 
-
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
+  <article class="timeline-item">
+    <div class="timeline-mark">UM</div>
     <div>
-      <strong>Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</strong><br>
-      <i style="font-size: 13px;">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We conduct the first psychological evaluation of modern GPUs under extreme training conditions. Results reveal that 87% of devices exhibit symptoms of burnout after repeated “just one more epoch” requests.
-      <br> 
-      <b><i style="color:#83a1c7;">ICLR 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <div class="item-meta">Dec 2025 — Jul 2026 · University of Michigan</div>
+      <h3>AUTO-ROBOTIST: Self-Evolving LLM Agent for Robot Design</h3>
+      <p>Built an auditable skill library that turns successful and failed morphology-search trials into transferable design knowledge. Across seven EvoGym tasks, the system accelerated cold-start search and transferred from 5×5 to 10×10 design spaces.</p>
+      <p class="advisor">Advisor: Prof. Xiaonan Huang</p>
     </div>
-  </div> 
-</div>
+  </article>
 
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
+  <article class="timeline-item">
+    <div class="timeline-mark">SEU</div>
     <div>
-      <strong>Instant Noodles as a Scalable Training Infrastructure for Graduate Students</strong><br>
-      <i style="font-size: 13px;">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We introduce Noodle-Scaling Law, showing that research productivity increases logarithmically with instant noodle consumption before collapsing catastrophically at 3 a.m.
-      <br> 
-      <b><i style="color:#83a1c7;">ICML 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <div class="item-meta">Jan 2026 — Mar 2026 · Southeast University</div>
+      <h3>CrossSense: Interview Agent for Semantic Alignment</h3>
+      <p>Contributed to an HCI interview assistant that detects communication gaps between researchers and domain experts, then provides real-time, LLM-based support for building shared understanding.</p>
+      <p class="advisor">Advisor: Prof. Chuhan Shi</p>
     </div>
-  </div> 
-</div>
+  </article>
 
-</div>
-
-
-<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
-  <ul class="full-publication-list">
-    <li>
-      <span class="pub-list-badge">ACL 3030</span>
-      <span class="pub-list-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3029</span>
-      <span class="pub-list-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3028</span>
-      <span class="pub-list-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3027</span>
-      <span class="pub-list-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3026</span>
-      <span class="pub-list-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</span><br>
-      <span class="pub-list-authors">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</span><br>
-      <span class="pub-list-authors">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-  </ul>
-</div>
-
-<script src="assets/js/show_publications.js"></script>
-<script src="assets/js/pub_media_rotator.js"></script>
-
-
-Projects
---------
-<div class="project-card" data-category="project"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="ManiUniCon" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+  <article class="timeline-item">
+    <div class="timeline-mark">ST</div>
+    <div>
+      <div class="item-meta">Nov 2024 — May 2025 · ShanghaiTech University</div>
+      <h3>Biological Fish Motion Reconstruction</h3>
+      <p>Built a real-to-sim pipeline for biomimetic imitation learning, including fish pose estimation from 9,046 annotated frames and automated motion retargeting in Blender and Fish-Gym.</p>
+      <p class="advisor">Advisor: Prof. Yang Wang</p>
     </div>
-    <div> 
-      <strong>WowPage</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>,
-        <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su</strong></a>.
-      </i><br>
-      In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
-    </div>
-  </div> 
+  </article>
 </div>
 
+<h2 id="publications" class="section-heading"><span>03</span> Publication</h2>
 
-Awards
---------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
+<article class="publication-card publication-card--featured">
+  <div class="paper-visual" aria-hidden="true">
+    <div class="robot-grid">
+      <i></i><i></i><i class="active"></i><i></i><i></i>
+      <i></i><i class="active"></i><i class="active"></i><i class="active"></i><i></i>
+      <i class="active"></i><i class="active"></i><i class="core"></i><i class="active"></i><i class="active"></i>
+      <i></i><i class="active"></i><i class="active"></i><i class="active"></i><i></i>
+      <i></i><i></i><i class="active"></i><i></i><i></i>
+    </div>
+    <span>search → reflect → remember</span>
+  </div>
+  <div class="paper-content">
+    <div class="item-meta">EMNLP 2026 Main Conference</div>
+    <h3>When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills</h3>
+    <p class="paper-authors"><strong>Yunfei Wang*</strong>, Xiaohao Xu*, Yang Li, Xiaonan Huang</p>
+    <p>We present Auto-Robotist, a self-evolving LLM agent that distills robot morphology-search traces into an explicit, auditable skill library and retrieves that experience to guide future design.</p>
+    <p class="paper-note">* Equal contribution</p>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2605.25832" target="_blank" rel="noopener">arXiv ↗</a>
+      <a href="https://doi.org/10.48550/arXiv.2605.25832" target="_blank" rel="noopener">DOI ↗</a>
+      <span>Code coming soon</span>
+    </div>
+  </div>
+</article>
 
+<h2 id="projects" class="section-heading"><span>04</span> Selected Projects</h2>
 
+<div class="project-grid">
+  <article class="project-card">
+    <div class="project-number">01</div>
+    <div class="item-meta">Sep 2025 — Dec 2025</div>
+    <h3>GTRM</h3>
+    <p>Extended the Tiny Recursion Model with context, attention, and recurrent gating, improving Sudoku reasoning accuracy by 5.6 percentage points.</p>
+    <div class="tag-row"><span>Reasoning</span><span>Tiny networks</span></div>
+  </article>
 
-Services
---------
-- *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
-- *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
-- Reviewer for Journal of Unfinished Projects.
-- Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
+  <article class="project-card">
+    <div class="project-number">02</div>
+    <div class="item-meta">Sep 2025 — Dec 2025</div>
+    <h3>Distributionally Robust Neural Networks</h3>
+    <p>Built a controlled SDXL-generated dataset and evaluated eight training regimes under spurious, style-based distribution shifts.</p>
+    <div class="tag-row"><span>Robust ML</span><span>Diffusion</span></div>
+  </article>
 
+  <article class="project-card">
+    <div class="project-number">03</div>
+    <div class="item-meta">Feb 2024 — Jun 2024</div>
+    <h3>TEULM</h3>
+    <p>Developed a GPU-accelerated ultrasound localization microscopy pipeline using downsampling and 2D spatiotemporal RBF interpolation.</p>
+    <div class="tag-row"><span>Medical imaging</span><span>GPU</span></div>
+  </article>
+</div>
 
+<h2 id="education" class="section-heading"><span>05</span> Education & Honors</h2>
 
-Talks
---------
-- *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
-- *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
-- *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
-- *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”
+<div class="education-grid">
+  <article class="education-card">
+    <div class="school-badge">M</div>
+    <div>
+      <div class="item-meta">Aug 2025 — Expected Dec 2026</div>
+      <h3>University of Michigan</h3>
+      <p>M.Eng. in Electrical & Computer Engineering · GPA 4.0/4.0</p>
+    </div>
+  </article>
+  <article class="education-card">
+    <div class="school-badge school-badge--st">S</div>
+    <div>
+      <div class="item-meta">Sep 2021 — Jul 2025</div>
+      <h3>ShanghaiTech University</h3>
+      <p>B.Eng. in Computer Science · GPA 3.69/4.0 · Rank 19/180</p>
+    </div>
+  </article>
+</div>
+
+<div class="honors-strip">
+  <span>2024</span> Merit Student, top 15%
+  <span>2023</span> Outstanding Student, top 5%
+</div>
+
+<section class="contact-card" aria-labelledby="contact-title">
+  <p class="eyebrow">Let’s connect</p>
+  <h2 id="contact-title">Interested in agents that learn from experience?</h2>
+  <p>I am always happy to talk about embodied AI, robot learning, and potential research collaborations.</p>
+  <a class="home-button home-button--primary" href="mailto:wyunfei@umich.edu">wyunfei@umich.edu</a>
+</section>

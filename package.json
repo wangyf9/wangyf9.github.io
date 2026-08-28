@@ -1,10 +1,10 @@
 {
-  "name": "academic-pages",
-  "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "name": "yunfei-wang-homepage",
+  "version": "1.0.0",
+  "description": "Yunfei Wang's academic homepage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "https://github.com/wangyf9/wangyf9.github.io"
   },
   "keywords": [
     "jekyll",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/academicpages/academicpages.github.io/issues"
   },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
+  "homepage": "https://wangyf9.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },
