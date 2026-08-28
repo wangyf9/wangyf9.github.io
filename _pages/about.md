@@ -9,7 +9,7 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I am a master's student in Electrical and Computer Engineering at the University of Michigan.
+Hi! I am a master's student in Electrical and Computer Engineering at the University of Michigan (2025.08 - 2026.12).
 
 My research interests include **Embodied AI**, **Robot Learning**, **Self-Evolving Agents**, and **Vision-Language Models**. I am particularly interested in enabling AI agents to learn from interaction, accumulate reusable experience, and improve the design and control of physical systems.
 
@@ -19,7 +19,7 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date"><em>2026.05</em></span> 🎉🎉 Our work <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</em></a> is available on arXiv.</li>
+    <li><span class="news-date"><em>2026.08</em></span> 🎉🎉 Our paper <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</em></a> was accepted to EMNLP 2026 Main Conference.</li>
     <li><span class="news-date"><em>2025.08</em></span> 🎓🎓 I began my M.Eng. studies at the University of Michigan.</li>
     <li><span class="news-date"><em>2025.07</em></span> 🎓🎓 I received my B.Eng. degree from ShanghaiTech University.</li>
   </ul>
@@ -33,50 +33,27 @@ Experience
   <div class="experience-card">
       <img src="images/umich.png" alt="University of Michigan logo" class="experience-logo">
       <div class="experience-info">
-          <strong>TOOL-EVOLVE: Self-Evolving VLM Agent for Robotic Tool–Action Co-Design</strong><br>
-          <em>2026.06 - Present</em><br>
-          University of Michigan, advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a><br>
-          <span style="color:#888;">Developing an experience-driven VLM agent with simulator-grounded reflection and cross-task memory for robotic tool–action co-design.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/umich.png" alt="University of Michigan logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>AUTO-ROBOTIST: Self-Evolving LLM Agent for Robot Design</strong><br>
-          <em>2025.12 - 2026.07</em><br>
-          University of Michigan, advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a><br>
-          <span style="color:#888;">Built an auditable skill library that converts evaluated robot-design trials into reusable knowledge for cold-start search and cross-scale transfer.</span>
+          <strong>University of Michigan</strong><br>
+          <em>2025.08 - 2026.12</em><br>
+          M.Eng. in Electrical and Computer Engineering; research advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a>
       </div>
   </div>
 
   <div class="experience-card">
       <img src="images/southeast.png" alt="Southeast University logo" class="experience-logo">
       <div class="experience-info">
-          <strong>CrossSense: Interview Agent for Expert–Researcher Semantic Alignment</strong><br>
+          <strong>Southeast University</strong><br>
           <em>2026.01 - 2026.03</em><br>
-          Southeast University, advised by <em>Prof. Chuhan Shi</em><br>
-          <span style="color:#888;">Developed an HCI interview assistant that detects communication gaps and provides real-time LLM-based support for shared understanding.</span>
+          Research Assistant advised by <em>Prof. Chuhan Shi</em>
       </div>
   </div>
 
   <div class="experience-card">
       <img src="images/shanghaitech.png" alt="ShanghaiTech University logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Biological Fish Motion Reconstruction for Robot Fish Motion Control</strong><br>
-          <em>2024.11 - 2025.05</em><br>
-          ShanghaiTech University, advised by <em>Prof. Yang Wang</em><br>
-          <span style="color:#888;">Built a real-to-sim pipeline for biomimetic imitation learning, including fish pose estimation and automated motion retargeting.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/shanghaitech.png" alt="ShanghaiTech University logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Optimization of Neural Rendering with Posit Number System</strong><br>
-          <em>2023.06 - 2023.11</em><br>
-          ShanghaiTech University, advised by <em>Prof. Xin Lou</em><br>
-          <span style="color:#888;">Integrated the Posit number system into NGP's MLP and hash encoding, reducing bit width while preserving reconstruction quality.</span>
+          <strong>ShanghaiTech University</strong><br>
+          <em>2021.09 - 2025.07</em><br>
+          B.Eng. in Computer Science, GPA: 3.69/4.0, Rank: 19/180; research advised by <em>Prof. Yang Wang</em> and <em>Prof. Xin Lou</em>
       </div>
   </div>
 
