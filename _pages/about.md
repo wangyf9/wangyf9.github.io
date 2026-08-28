@@ -101,7 +101,7 @@ Publications
           <strong>Yunfei Wang*</strong>,
           Xiaohao Xu*&Dagger;,
           Yang Li,
-          Xiaonan Huang.
+          Xiaonan Huang
         </i><br>
         We present Auto-Robotist, a self-evolving LLM agent that distills robot-design search traces into an explicit, auditable skill library and reuses learned skills across tasks and design scales.
         <br>
@@ -118,7 +118,7 @@ Publications
     <li>
       <span class="pub-list-badge">EMNLP 2026</span>
       <span class="pub-list-title">When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</span><br>
-      <span class="pub-list-authors"><strong>Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang.</span>
+      <span class="pub-list-authors"><strong>Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang</span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a><a href="https://doi.org/10.48550/arXiv.2605.25832" target="_blank">[DOI]</a></span>
     </li>
   </ul>
