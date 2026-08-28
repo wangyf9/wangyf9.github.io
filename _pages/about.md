@@ -103,7 +103,7 @@ Publications
           Yang Li,
           Xiaonan Huang
         </i><br>
-        We present Auto-Robotist, a self-evolving LLM agent that distills robot-design search traces into an explicit, auditable skill library and reuses learned skills across tasks and design scales.
+        We present AUTO-ROBOTIST, a self-evolving LLM agent that distills evaluated successful and failed morphology-search experience into an auditable skill library with ADD, DIAGNOSE, and MERGE operations, achieving a 1.47&times; average convergence speedup on seven 5&times;5 EvoGym tasks and outperforming GA on all seven 10&times;10 cross-scale transfer tasks.
         <br>
         <b><i style="color:#83a1c7;">EMNLP 2026 Main Conference &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>[arXiv]</em></a>
