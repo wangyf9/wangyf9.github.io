@@ -7,14 +7,8 @@ main:
   - title: "Experience"
     url: "/#experience"
 
-  - title: "Education"
-    url: "/#education"
-
   - title: "Pub"
     url: "/#publications"
-
-  - title: "Project"
-    url: "/#projects"
 
   - title: "Awards"
     url: "/#awards"
