@@ -76,16 +76,16 @@ Publications
       </div>
       <div>
         <strong>When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</strong><br>
-        <i style="font-size: 13px;">
-          <strong>Yunfei Wang*</strong>,
+        <i class="pub-authors">
+          <strong class="self-author">Yunfei Wang*</strong>,
           Xiaohao Xu*&Dagger;,
           Yang Li,
           Xiaonan Huang
         </i><br>
         We present AUTO-ROBOTIST, a self-evolving LLM agent that distills evaluated successful and failed morphology-search experience into an auditable skill library with ADD, DIAGNOSE, and MERGE operations.
         <br>
-        <b><i style="color:#83a1c7;">EMNLP 2026 Main Conference &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2605.25832" target="_blank"><em>[arXiv]</em></a>
+        <span class="pub-venue">EMNLP 2026 Main Conference</span>
+        <a class="pub-link" href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a>
       </div>
     </div>
   </div>
@@ -96,7 +96,7 @@ Publications
     <li>
       <span class="pub-list-badge">EMNLP 2026</span>
       <span class="pub-list-title">When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</span><br>
-      <span class="pub-list-authors"><strong>Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang</span>
+      <span class="pub-list-authors"><strong class="self-author">Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang</span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a></span>
     </li>
   </ul>
