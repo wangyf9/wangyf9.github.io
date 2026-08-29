@@ -13,7 +13,7 @@ Hi! I am a master's student in Electrical and Computer Engineering at the Univer
 
 My research interests broadly include **Embodied AI**, **Robot Learning**, and **AI Agents**, as well as other emerging areas in AI. I enjoy exploring diverse research directions and collaborating with researchers across different fields.
 
-I am currently seeking **Ph.D. opportunities or research assistant positions starting in Fall 2027**.
+I am currently seeking **research assistant positions**, as well as **Ph.D. opportunities for Fall 2027**.
 
 Feel free to reach out if you are interested in collaboration or potential opportunities.
 
