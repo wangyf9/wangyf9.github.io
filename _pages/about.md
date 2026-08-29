@@ -35,7 +35,7 @@ Experience
       <div class="experience-info">
           <strong>University of Michigan</strong><br>
           <em>2025.08 - 2026.12</em><br>
-          M.Eng. in Electrical and Computer Engineering & Research Assistant in the HDR Lab advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a>
+          M.Eng. in Electrical and Computer Engineering & Research Assistant in the <a href="https://soft.robotics.umich.edu/" target="_blank"><em>HDR Lab</em></a> advised by <a href="https://robotics.umich.edu/profile/xiaonan-huang/" target="_blank"><em>Prof. Xiaonan Huang</em></a>
       </div>
   </div>
 
