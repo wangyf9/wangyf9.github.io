@@ -11,7 +11,7 @@ redirect_from:
 
 Hi! I am a master's student in Electrical and Computer Engineering at the University of Michigan (2025.08 - 2026.12).
 
-My research interests broadly include **Embodied AI**, **Multimodal Learning**, and **AI Agents**, as well as other emerging areas in artificial intelligence. My methodological preference is for approaches that are simple, generalizable, and extensible. I enjoy exploring diverse research directions and collaborating with researchers across different fields.
+My research interests broadly include **Embodied AI**, **Robot Learning**, and **AI Agents**, as well as other emerging areas in AI. I enjoy exploring diverse research directions and collaborating with researchers across different fields.
 
 Feel free to reach out if you are interested in collaboration or potential opportunities.
 
