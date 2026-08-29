@@ -46,7 +46,7 @@ Experience
       <div class="experience-info">
           <strong>Southeast University</strong><br>
           <em>2026.01 - 2026.03</em><br>
-          Research Assistant advised by <em>Prof. Chuhan Shi</em>
+          Research Assistant advised by <a href="https://shichuhan.github.io/" target="_blank"><em>Prof. Chuhan Shi</em></a>
       </div>
   </div>
 
