@@ -86,6 +86,7 @@ Publications
         <br>
         <span class="pub-venue">EMNLP 2026 Main Conference</span>
         <a class="pub-link" href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a>
+        <a class="pub-link" href="https://github.com/wangyf9/Auto-Robotist" target="_blank">[code]</a>
       </div>
     </div>
   </div>
@@ -97,7 +98,7 @@ Publications
       <span class="pub-list-badge">EMNLP 2026</span>
       <span class="pub-list-title">When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills</span><br>
       <span class="pub-list-authors"><strong class="self-author">Yunfei Wang*</strong>, Xiaohao Xu*&Dagger;, Yang Li, Xiaonan Huang</span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2605.25832" target="_blank">[arXiv]</a><a href="https://github.com/wangyf9/Auto-Robotist" target="_blank">[code]</a></span>
     </li>
   </ul>
 </div>
