@@ -2,7 +2,7 @@
 permalink: /
 author_profile: true
 stylesheets:
-  - /assets/css/home.css
+  - /assets/css/home.css?v=videos-2
 redirect_from:
   - /about/
   - /about.html
@@ -108,21 +108,13 @@ Publications
 
 Videos
 --------------
-<article class="video-card" aria-labelledby="auto-robotist-video-title">
-  <video class="featured-video" controls playsinline preload="none" width="1906" height="1080" poster="{{ '/images/auto-robotist-video.jpg' | relative_url }}" aria-label="Auto-Robotist research video">
+<div class="video-card" role="group" aria-labelledby="auto-robotist-video-title">
+  <h3 id="auto-robotist-video-title">Auto Robotist</h3>
+  <video class="featured-video" controls playsinline preload="none" style="width: 100%; max-width: 100%; height: auto;" poster="{{ '/images/auto-robotist-video.jpg' | relative_url }}" aria-labelledby="auto-robotist-video-title">
     <source src="{{ '/assets/videos/auto-robotist.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support embedded video. <a href="{{ '/assets/videos/auto-robotist.mp4' | relative_url }}">Watch the video directly</a>.
   </video>
-  <div class="video-details">
-    <div class="video-meta">Research overview <span aria-hidden="true">&middot;</span> 1 min 52 sec</div>
-    <h3 id="auto-robotist-video-title">Auto-Robotist</h3>
-    <p>See how a self-evolving agent turns robot design experience into reusable skills.</p>
-    <div class="video-links">
-      <a href="https://arxiv.org/abs/2605.25832" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">&nearr;</span></a>
-      <a href="https://github.com/wangyf9/Auto-Robotist" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">&nearr;</span></a>
-    </div>
-  </div>
-</article>
+</div>
 
 Awards
 --------
