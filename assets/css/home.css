@@ -5,6 +5,7 @@
 #news,
     #experience,
     #publications,
+    #videos,
     #projects,
     #awards,
     #talks {
@@ -307,6 +308,74 @@
 
       .pub-list-links a:hover {
         color: #b65f36 !important;
+    }
+
+    /* Single featured research video */
+    .video-card {
+        overflow: hidden;
+        margin-bottom: 28px;
+        border: 1px solid #e3e3e3;
+        border-radius: 12px;
+        background: #f9f9f9;
+    }
+
+    .video-card .featured-video {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1906 / 1080;
+        margin: 0;
+        background: #111;
+        object-fit: contain;
+    }
+
+    .video-details {
+        padding: clamp(16px, 3vw, 24px);
+        border-top: 1px solid #e3e3e3;
+    }
+
+    .video-meta {
+        color: #6b7280;
+        font-size: 14px;
+    }
+
+    .video-meta span {
+        margin: 0 6px;
+    }
+
+    .video-details h3 {
+        margin: 8px 0;
+        color: #202124;
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .video-details p {
+        margin: 0 0 12px;
+        color: #5f6368;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .video-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 24px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .video-links a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 44px;
+    }
+
+    .video-links a:focus-visible,
+    .featured-video:focus-visible {
+        outline: 2px solid #a94747;
+        outline-offset: -2px;
     }
 
     /* Projects cards: keep styles independent from publications */
